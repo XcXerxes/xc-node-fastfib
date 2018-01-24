@@ -1,0 +1,13 @@
+const assert = require('assert')
+const fibon = require('../')
+
+assert.equal(fibon(0), 0)
+assert.equal(fibon(1), 1)
+assert.equal(fibon(2), 1)
+assert.equal(fibon(3), 2)
+assert.equal(fibon(4), 3)
+assert.equal(fibon(5), 5)
+assert.equal(fibon(6), 8)
+assert.equal(fibon(7), 13)
+assert.equal(fibon(8), 21)
+assert.equal(fibon(9), 34)

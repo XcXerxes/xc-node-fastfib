@@ -1,0 +1,27 @@
+{
+  "name": "xc-node-fastfib",
+  "version": "0.1.0",
+  "description": "Calculates a Fibonacci number as fast as possible with only JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/XcXerxes/xc-node-fastfib.git",
+  "author": "Smile <xcxerxes@aliyun.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node __test__ && node benchmark"
+  },
+  "bin": {
+    "fastfib": "./bin/index.js"
+  },
+  "keywords": [
+    "fibonacci",
+    "fast"
+  ],
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/XcXerxes/xc-node-fastfib/issues"
+  },
+  "homepage": "https://github.com/XcXerxes/xc-node-fastfib",
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
